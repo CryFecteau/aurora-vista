@@ -24,7 +24,15 @@
         ></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div
+          class="carousel-item active"
+          style="
+            background-image: url('https://placehold.co/50');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+          "
+        >
           <div
             class="carousel-caption d-flex flex-column align-items-center justify-content-start"
             style="bottom: auto; top: 7rem"
@@ -44,13 +52,29 @@
               >
             </div>
           </div>
-          <img class="w-100" src="https://placehold.co/50" alt="Image" />
+          <!-- <img class="w-100" src="https://placehold.co/50" alt="Image" /> -->
         </div>
-        <div class="carousel-item">
-          <img class="w-100" src="https://placehold.co/50" alt="Image" />
+        <div
+          class="carousel-item"
+          style="
+            background-image: url('https://placehold.co/50');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+          "
+        >
+          <!-- <img class="w-100" src="https://placehold.co/50" alt="Image" /> -->
         </div>
-        <div class="carousel-item">
-          <img class="w-100" src="https://placehold.co/50" alt="Image" />
+        <div
+          class="carousel-item"
+          style="
+            background-image: url('https://placehold.co/50');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+          "
+        >
+          <!-- <img class="w-100" src="https://placehold.co/50" alt="Image" /> -->
         </div>
       </div>
       <button
