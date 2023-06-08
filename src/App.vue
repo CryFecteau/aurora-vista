@@ -1,6 +1,6 @@
 <template>
   <div class="container-xxl p-0">
-    <LoaderComponent />
+    <!-- <LoaderComponent /> -->
     <HeaderComponent />
     <CarouselComponent />
     <RoomsComponent />
@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import LoaderComponent from "./components/loader-component.vue";
+// import LoaderComponent from "./components/loader-component.vue";
 import HeaderComponent from "./components/header-component.vue";
 import CarouselComponent from "./components/carousel-component.vue";
 import RoomsComponent from "./components/rooms-component.vue";
@@ -32,7 +32,7 @@ import FooterComponent from "./components/footer-component.vue";
 export default {
   name: "App",
   components: {
-    LoaderComponent,
+    // LoaderComponent,
     HeaderComponent,
     CarouselComponent,
     RoomsComponent,
