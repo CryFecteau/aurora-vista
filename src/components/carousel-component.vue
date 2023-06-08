@@ -1,7 +1,7 @@
 <template>
-  <div class="p-0 mb-5">
+  <div class="p-0 mt-2">
     <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators mb-5">
+      <div class="carousel-indicators">
         <button
           type="button"
           data-bs-target="#carouselExampleCaptions"
@@ -27,12 +27,12 @@
         <div class="carousel-item active">
           <div
             class="carousel-caption d-flex flex-column align-items-center justify-content-start"
-            style="bottom: auto; top: 5rem"
+            style="bottom: auto; top: 7rem"
           >
             <div style="max-width: 700px">
-              <h6 class="section-title text-dark mb-3 animated slideInDown">
+              <h4 class="section-title text-dark mb-3 animated slideInDown">
                 Escape the Ordinary,
-              </h6>
+              </h4>
               <h1 class="display-3 text-white mb-4 animated slideInDown">
                 Enter Paradise: Experience the Perfect Getaway.
               </h1>
@@ -82,4 +82,9 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+#header-carousel .carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+</style>
