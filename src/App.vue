@@ -28,6 +28,7 @@ import ReviewsComponent from "./components/reviews-component.vue";
 import TeamComponent from "./components/team-component.vue";
 import NewsletterComponent from "./components/newsletter-component.vue";
 import FooterComponent from "./components/footer-component.vue";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 export default {
   name: "App",
