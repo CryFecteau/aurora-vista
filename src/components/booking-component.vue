@@ -13,8 +13,8 @@
       >
         <div class="wow fadeInUp" data-wow-delay="0.1s">
           <h1 class="section-title text-info">Find</h1>
-          <h1>Pure Paradise in Our</h1>
-          <h1 class="text-info mb-5">Rooms</h1>
+          <h1>Pure Paradise</h1>
+          <h1 class="mb-5">Book a<span class="text-info"> Room</span></h1>
         </div>
         <div class="row g-2">
           <div class="col-md-10">

@@ -4,7 +4,7 @@
       <div class="col-md-6 bg-secondary d-flex align-items-center">
         <div class="p-5">
           <h1 class="text-white mb-4">
-            Discover <span class="text-info">Enchanted Experiences</span>
+            Discover Your <span class="text-info">Enchanted Experiences</span>
           </h1>
           <p class="text-white mb-4">
             Enter a realm of wonderment within our hotel rooms, where dreams become

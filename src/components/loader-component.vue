@@ -1,7 +1,7 @@
 <template>
   <div
     v-if="!hasEntered"
-    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex flex-column align-items-center justify-content-center"
+    class="z-3 show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex flex-column align-items-center justify-content-center"
   >
     <div class="card w-50 card-styled">
       <h5 class="card-header card-header-styled p-3">Aurora Vista</h5>
@@ -52,7 +52,7 @@ export default {
       setTimeout(() => {
         this.isDisabled = false;
         this.statusMsg = "Enter Paradise";
-      }, 5000);
+      }, 3000);
     },
     removeLoader() {
       this.hasEntered = true;

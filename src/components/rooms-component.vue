@@ -2,10 +2,8 @@
   <div class="container-xxl py-5">
     <div class="container">
       <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-        <h3 class="section-title text-center text-info">Indulge in Luxury,</h3>
-        <h1 class="mb-5">
-          Experience Unmatched Comfort in Our <span class="text-info">Rooms</span>
-        </h1>
+        <h2 class="section-title text-center text-info">Indulge in Luxury,</h2>
+        <h1 class="mb-5">Experience Unmatched Comfort</h1>
       </div>
       <div class="row g-4">
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
