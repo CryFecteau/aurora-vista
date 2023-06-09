@@ -14,11 +14,10 @@
         </div>
         <div class="col-md-6 col-lg-3">
           <h6 class="section-title text-start text-info text-uppercase mb-4">Contact</h6>
-          <p class="mb-2">
-            <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA
-          </p>
-          <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-          <p class="mb-2"><i class="fa fa-envelope me-3"></i>Cry.Fecteau@gmail.com</p>
+          <p class="mb-2"><i class="bi bi-person-hearts me-3"></i>Crystal Fecteau</p>
+          <p class="mb-2"><i class="bi bi-map me-3"></i>Seattle, WA 98113</p>
+          <p class="mb-2"><i class="bi bi-phone me-3"></i>(562) 760-7099</p>
+          <p class="mb-2"><i class="bi bi-envelope me-3"></i>Cry.Fecteau@gmail.com</p>
           <div class="d-flex pt-2">
             <a class="btn btn-outline-light btn-social mx-1" href=""
               ><i class="bi bi-twitter"></i
