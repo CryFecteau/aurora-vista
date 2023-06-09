@@ -43,7 +43,7 @@
             </div>
           </div>
           <div class="p-3 overflow-hidden">
-            <p class="fs-4 text-info" href="">Tour and Excursion Desk</p>
+            <p class="fs-4 text-info" href="">Tours and Excursions</p>
             <p class="text-body mt-3">
               Assistance in arranging local tours, excursions, or activities, providing
               guests with recommendations and booking services for exploring the
