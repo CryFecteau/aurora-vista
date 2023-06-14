@@ -1,5 +1,5 @@
 <template>
-  <div id="RoomsComponent" class="container-xxl py-5">
+  <div id="RoomsComponent" class="container-xxl py-5 mt-5">
     <div class="container">
       <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
         <h1 class="section-title text-center text-info">Indulge in Luxury,</h1>
@@ -9,7 +9,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="room-item shadow rounded overflow-hidden">
             <div class="position-relative">
-              <img class="img-fluid" src="https://placehold.co/500" alt="" />
+              <img class="img-fluid" src="../assets/rooms/1bed.jpg" alt="" />
               <small
                 class="position-absolute start-0 top-100 translate-middle-y bg-info rounded py-1 px-3 ms-4"
                 >$99/Night</small
@@ -55,7 +55,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
           <div class="room-item shadow rounded overflow-hidden">
             <div class="position-relative">
-              <img class="img-fluid" src="https://placehold.co/500" alt="" />
+              <img class="img-fluid" src="../assets/rooms/2bed.jpg" alt="" />
               <small
                 class="position-absolute start-0 top-100 translate-middle-y bg-info rounded py-1 px-3 ms-4"
                 >$175/Night</small
@@ -103,7 +103,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
           <div class="room-item shadow rounded overflow-hidden">
             <div class="position-relative">
-              <img class="img-fluid" src="https://placehold.co/500" alt="" />
+              <img class="img-fluid" src="../assets/rooms/bed.jpg" alt="" />
               <small
                 class="position-absolute start-0 top-100 translate-middle-y bg-info rounded py-1 px-3 ms-4"
                 >$299/Night</small

@@ -1,6 +1,6 @@
 <template>
   <div class="p-0 mt-2">
-    <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="header-carousel" class="carousel slide shadow" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button
           type="button"
@@ -26,23 +26,23 @@
       <div class="carousel-inner">
         <div
           class="carousel-item active"
-          style="
-            background-image: url('https://placehold.co/50');
+          :style="`background-image: url(${banner3});
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-          "
+          `"
         >
           <div
             class="carousel-caption d-flex flex-column align-items-center justify-content-start"
-            style="bottom: auto; top: 7rem"
+            style="bottom: auto; top: 10rem; background: rgb(0 0 0 / 40%)"
           >
             <div style="max-width: 700px">
-              <h4 class="section-title text-dark mb-3 animated slideInDown">
+              <h4 class="section-title text-white mb-2 animated slideInDown">
                 Escape the Ordinary,
               </h4>
               <h1 class="display-3 text-white mb-4 animated slideInDown">
-                Enter Paradise: Experience the Perfect Getaway.
+                Enter Paradise: Experience the
+                <span class="text-info">Perfect Getaway.</span>
               </h1>
               <a
                 href="#"
@@ -61,22 +61,45 @@
         </div>
         <div
           class="carousel-item"
-          style="
-            background-image: url('https://placehold.co/50');
+          :style="`background-image: url(${banner2});
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-          "
-        ></div>
+          `"
+        >
+          <div
+            class="carousel-caption d-flex flex-column align-items-center justify-content-start"
+            style="bottom: 5rem; background: rgb(0 0 0 / 40%)"
+          >
+            <div style="max-width: 700px">
+              <h3 class="text-white animated slideInDown">
+                Experience the
+                <span class="text-info">Best of the Best.</span>
+              </h3>
+            </div>
+          </div>
+        </div>
         <div
           class="carousel-item"
-          style="
-            background-image: url('https://placehold.co/50');
+          :style="`background-image: url(${banner1});
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-          "
-        ></div>
+          `"
+        >
+          <div
+            class="carousel-caption d-flex flex-column align-items-center justify-content-start"
+            style="bottom: 5rem; background: rgb(0 0 0 / 40%)"
+          >
+            <div style="max-width: 700px">
+              <h3 class="text-white animated slideInDown">
+                Hundreds of
+                <span class="text-info">Exoctic Locations </span>
+                to Choose From.
+              </h3>
+            </div>
+          </div>
+        </div>
       </div>
       <button
         class="carousel-control-prev"
@@ -101,9 +124,20 @@
 </template>
 
 <script>
+import banner1 from "../assets/banner/banner1.jpg";
+import banner2 from "../assets/banner/banner2.jpg";
+import banner3 from "../assets/banner/banner3.jpg";
+
 export default {
   name: "CarouselComponent",
   props: {},
+  data() {
+    return {
+      banner1: banner1,
+      banner2: banner2,
+      banner3: banner3,
+    };
+  },
   methods: {
     scrollToElement(el) {
       const element = document.getElementById(el).getBoundingClientRect();

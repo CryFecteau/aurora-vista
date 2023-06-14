@@ -3,9 +3,8 @@
     v-if="!hasEntered"
     class="z-3 show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex flex-column align-items-center justify-content-center"
   >
-    <div class="card w-50 card-styled">
-      <h5 class="card-header card-header-styled p-3">Aurora Vista</h5>
-      <div class="card-body">
+    <div class="card w-50 card-styled bg-dark p-3">
+      <div class="card-body text-white">
         <h5 class="card-title">Welcome to Aurora Vista</h5>
         <p class="card-text">
           Please note that this is a mock hotel site created to showcase Vue.js and
@@ -13,9 +12,9 @@
           that it's for demonstration purposes only.
         </p>
         <p class="card-text">Enjoy your virtual stay!</p>
-        <p class="card-text"><small class="text-muted">- Aurora Vista Team </small></p>
+        <p class="card-text"><small class="text-info">- Aurora Vista Team </small></p>
         <button
-          class="btn btn-outline-secondary float-end"
+          class="btn btn-outline-info float-end mb-1"
           type="button"
           :disabled="isDisabled"
           @click="removeLoader"
@@ -52,7 +51,7 @@ export default {
       setTimeout(() => {
         this.isDisabled = false;
         this.statusMsg = "Enter Paradise";
-      }, 3000);
+      }, 2500);
     },
     removeLoader() {
       this.$emit("remove-loader", true);

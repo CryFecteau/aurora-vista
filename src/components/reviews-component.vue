@@ -1,13 +1,11 @@
 <template>
   <div
     id="ReviewsComponent"
-    class="container-md"
-    style="
-      background-image: url('https://placehold.co/50');
+    class="container-md mt-5 shadow-lg"
+    :style="`background-image: url(${bgView});
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: center;
-    "
+      background-position: center;`"
   >
     <div id="carouselExample" class="carousel slide">
       <h1 class="p-3"><span class="text-info">Guests</span> Experiences</h1>
@@ -15,7 +13,7 @@
         <div class="carousel-item active mb-3">
           <div
             class="card w-xs-50 w-lg-100 mx-2 mx-md-auto my-3"
-            style="max-width: 740px"
+            style="max-width: 740px; box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3)"
           >
             <div class="row g-0 d-flex flex-row">
               <div class="col-lg-12">
@@ -23,12 +21,12 @@
                   <div class="card-body">
                     <div class="d-flex align-items-center mb-2">
                       <img
-                        src="https://placehold.co/50"
+                        src="../assets/reviews/review2.jpg"
                         class="rounded-circle me-3"
                         alt="Customer Image"
                         width="50"
                       />
-                      <h5 class="card-title">Kelvin D.</h5>
+                      <h5 class="card-title mt-1">Kelvin D.</h5>
                     </div>
                     <p class="card-text">
                       "Absolutely fantastic experience at Aurora Vista! The staff went
@@ -51,7 +49,7 @@
         <div class="carousel-item mb-3">
           <div
             class="card w-xs-50 w-lg-100 mx-2 mx-md-auto my-3"
-            style="max-width: 740px"
+            style="max-width: 740px; box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3)"
           >
             <div class="row g-0 d-flex flex-row">
               <div class="col-lg-12">
@@ -59,12 +57,12 @@
                   <div class="card-body">
                     <div class="d-flex align-items-center mb-2">
                       <img
-                        src="https://placehold.co/50"
+                        src="../assets/reviews/review3.jpg"
                         class="rounded-circle me-3"
                         alt="Customer Image"
                         width="50"
                       />
-                      <h5 class="card-title">Marry R.</h5>
+                      <h5 class="card-title mt-1">Marry R.</h5>
                     </div>
                     <p class="card-text">
                       Aurora Vista exceeded our expectations in every way possible. The
@@ -87,7 +85,7 @@
         <div class="carousel-item mb-3">
           <div
             class="card w-xs-50 w-lg-100 mx-2 mx-md-auto my-3"
-            style="max-width: 740px"
+            style="max-width: 740px; box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3)"
           >
             <div class="row g-0 d-flex flex-row">
               <div class="col-lg-12">
@@ -95,12 +93,12 @@
                   <div class="card-body">
                     <div class="d-flex align-items-center mb-2">
                       <img
-                        src="https://placehold.co/50"
+                        src="../assets/reviews/review1.jpg"
                         class="rounded-circle me-3"
                         alt="Customer Image"
                         width="50"
                       />
-                      <h5 class="card-title">Austin H.</h5>
+                      <h5 class="card-title mt-1">Austin H.</h5>
                     </div>
                     <p class="card-text">
                       "Aurora Vista is a hidden gem that we can't stop raving about. The
@@ -145,9 +143,16 @@
 </template>
 
 <script>
+import bgView from "../assets/other/view.jpg";
+
 export default {
   name: "ReviewsComponent",
   props: {},
+  data() {
+    return {
+      bgView: bgView,
+    };
+  },
 };
 </script>
 

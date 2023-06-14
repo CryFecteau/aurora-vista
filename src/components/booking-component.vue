@@ -1,24 +1,22 @@
 <template>
   <div
     id="BookingComponent"
-    class="container-fluid booking pb-5 wow fadeIn"
+    class="container-fluid booking pb-5 wow fadeIn mt-5"
     data-wow-delay="0.1s"
   >
     <div class="container">
       <div
-        class="bg-white shadow"
-        style="
-          padding: 35px;
-          background-image: url('https://placehold.co/50');
+        class="shadow"
+        :style="`padding: 35px;
+          background-image: url(${garden});
           background-size: cover;
           background-repeat: no-repeat;
-          background-position: center;
-        "
+          background-position: center;`"
       >
         <div class="wow fadeInUp" data-wow-delay="0.1s">
           <h1 class="section-title text-info">Find</h1>
-          <h1>Pure Paradise</h1>
-          <h1 class="mb-5">Book a<span class="text-info"> Room</span></h1>
+          <h1 class="text-white">Pure Paradise</h1>
+          <h1 class="mb-5 text-white">Book a<span class="text-info"> Room</span></h1>
         </div>
         <div class="row g-2">
           <div class="col-md-10">
@@ -83,6 +81,7 @@
 <script>
 import VueDatePicker from "@vuepic/vue-datepicker";
 import "@vuepic/vue-datepicker/dist/main.css";
+import garden from "../assets/other/garden.jpg";
 
 export default {
   name: "BookingComponent",
@@ -90,6 +89,7 @@ export default {
   data() {
     return {
       date: null,
+      garden: garden,
     };
   },
 };

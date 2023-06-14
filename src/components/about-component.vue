@@ -53,31 +53,31 @@
           <div class="row g-3">
             <div class="col-6 text-end">
               <img
-                class="img-fluid rounded w-75 wow zoomIn"
+                class="img-fluid rounded w-75 wow zoomIn shadow"
                 data-wow-delay="0.1s"
-                src="https://placehold.co/50"
+                src="../assets/story/story3.jpg"
                 style="margin-top: 25%"
               />
             </div>
             <div class="col-6 text-start">
               <img
-                class="img-fluid rounded w-100 wow zoomIn"
+                class="img-fluid rounded w-100 wow zoomIn shadow"
                 data-wow-delay="0.3s"
-                src="https://placehold.co/50"
+                src="../assets/story/story4.jpg"
               />
             </div>
             <div class="col-6 text-end">
               <img
-                class="img-fluid rounded w-50 wow zoomIn"
+                class="img-fluid rounded w-50 wow zoomIn shadow"
                 data-wow-delay="0.5s"
-                src="https://placehold.co/50"
+                src="../assets/story/story1.jpg"
               />
             </div>
             <div class="col-6 text-start">
               <img
-                class="img-fluid rounded w-75 wow zoomIn"
+                class="img-fluid rounded w-75 wow zoomIn shadow"
                 data-wow-delay="0.7s"
-                src="https://placehold.co/50"
+                src="../assets/story/story2.jpg"
               />
             </div>
           </div>

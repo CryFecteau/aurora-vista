@@ -1,10 +1,10 @@
 <template>
   <div class="container-xxl py-5 wow zoomIn" data-wow-delay="0.1s">
-    <div class="row g-0">
+    <div class="row g-0 shadow">
       <div class="col-md-6 bg-secondary d-flex align-items-center">
         <div class="p-5">
           <h1 class="text-white mb-4">
-            Discover Your <span class="text-info">Enchanted Experiences</span>
+            Discover Your <span class="text-info">Enchanted Experience</span>
           </h1>
           <p class="text-white mb-4">
             Enter a realm of wonderment within our hotel rooms, where dreams become
@@ -30,19 +30,13 @@
       <div class="col-md-6">
         <div
           class="w-100 h-100 d-flex align-items-center justify-content-center"
-          style="
-            padding: 35px;
-            background-image: url('https://placehold.co/50');
+          :style="`padding: 35px;
+            background-image: url(${hall});
             background-size: cover;
             background-repeat: no-repeat;
-            background-position: center;
-          "
+            background-position: center;`"
         >
-          <button
-            type="button"
-            class="btn btn-lg btn-outline-dark"
-            @click="openVideoModal"
-          >
+          <button type="button" class="btn btn-lg btn-info" @click="openVideoModal">
             Quick Tour
             <span class="bi bi-play-fill"></span>
           </button>
@@ -89,12 +83,14 @@
 
 <script>
 import bootstrap from "bootstrap/dist/js/bootstrap.bundle.js";
+import hall from "../assets/other/hall.jpg";
 
 export default {
   name: "VideoComponent",
   data() {
     return {
       videoSrc: "",
+      hall: hall,
     };
   },
   methods: {

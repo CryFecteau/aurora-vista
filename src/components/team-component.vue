@@ -1,14 +1,17 @@
 <template>
-  <div class="container-xxl py-5">
+  <div class="container-xxl py-5 mt-5">
     <div class="container">
       <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
         <h1 class="mb-5">Our Outstanding <span class="text-info">Team</span></h1>
       </div>
       <div class="row g-4">
         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="rounded shadow overflow-hidden">
+          <div
+            class="rounded overflow-hidden"
+            style="box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3)"
+          >
             <div class="position-relative">
-              <img class="img-fluid" src="https://placehold.co/500" alt="" />
+              <img class="img-fluid" src="../assets/team/jace.jpg" alt="" />
               <div
                 class="position-absolute start-50 top-100 translate-middle d-flex align-items-center"
               >
@@ -38,9 +41,12 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="rounded shadow overflow-hidden">
+          <div
+            class="rounded overflow-hidden"
+            style="box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3)"
+          >
             <div class="position-relative">
-              <img class="img-fluid" src="https://placehold.co/500" alt="" />
+              <img class="img-fluid" src="../assets/team/carie.jpg" alt="" />
               <div
                 class="position-absolute start-50 top-100 translate-middle d-flex align-items-center"
               >
@@ -70,9 +76,12 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="rounded shadow overflow-hidden">
+          <div
+            class="rounded overflow-hidden"
+            style="box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3)"
+          >
             <div class="position-relative">
-              <img class="img-fluid" src="https://placehold.co/500" alt="" />
+              <img class="img-fluid" src="../assets/team/andy.jpg" alt="" />
               <div
                 class="position-absolute start-50 top-100 translate-middle d-flex align-items-center"
               >
@@ -102,9 +111,12 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-          <div class="rounded shadow overflow-hidden">
+          <div
+            class="rounded overflow-hidden"
+            style="box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3)"
+          >
             <div class="position-relative">
-              <img class="img-fluid" src="https://placehold.co/500" alt="" />
+              <img class="img-fluid" src="../assets/team/benji.jpg" alt="" />
               <div
                 class="position-absolute start-50 top-100 translate-middle d-flex align-items-center"
               >
