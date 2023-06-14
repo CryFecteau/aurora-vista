@@ -1,8 +1,12 @@
 <template>
-  <div class="container-xl newsletter my-5 wow fadeIn" data-wow-delay="0.1s">
+  <div
+    id="NewsletterComponent"
+    class="container-xl newsletter my-5 wow fadeIn"
+    data-wow-delay="0.1s"
+  >
     <div class="row justify-content-center">
-      <div class="col-lg-10 border rounded p-1">
-        <div class="border rounded text-center p-1">
+      <div class="col-lg-10 border border-3 rounded p-1">
+        <div class="border rounded border-2 border-info text-center p-1">
           <div class="bg-white rounded text-center p-5">
             <h1 class="mb-4"><span class="text-info">Don't</span> Miss Out</h1>
             <p class="pb-2">

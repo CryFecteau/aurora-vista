@@ -1,5 +1,6 @@
 <template>
   <div
+    id="ReviewsComponent"
     class="container-md"
     style="
       background-image: url('https://placehold.co/50');

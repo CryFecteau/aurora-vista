@@ -15,8 +15,16 @@
             thoughtfully curated spaces. With breathtaking views and personalized service,
             our rooms are an oasis of wonder that will leave you spellbound.
           </p>
-          <a href="" class="btn btn-sm btn-info py-md-2 px-md-3 me-3">Our Rooms</a>
-          <a href="" class="btn btn-sm btn-light py-md-2 px-md-3">Book A Room</a>
+          <span
+            class="btn btn-sm btn-info py-md-2 px-md-3 me-3"
+            @click="scrollToElement('RoomsComponent')"
+            >Our Rooms</span
+          >
+          <span
+            class="btn btn-sm btn-light py-md-2 px-md-3"
+            @click="scrollToElement('BookingComponent')"
+            >Book A Room</span
+          >
         </div>
       </div>
       <div class="col-md-6">
@@ -93,6 +101,14 @@ export default {
     openVideoModal() {
       this.videoSrc = "https://www.youtube.com/embed/hPvGCk1iQak";
       new bootstrap.Modal(document.getElementById("videoModal")).show();
+    },
+    scrollToElement(el) {
+      const element = document.getElementById(el).getBoundingClientRect();
+      console.log(element);
+      window.scrollTo({
+        top: element.top + window.pageYOffset - 100,
+        behavior: "smooth",
+      });
     },
   },
 };

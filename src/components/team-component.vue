@@ -12,19 +12,27 @@
               <div
                 class="position-absolute start-50 top-100 translate-middle d-flex align-items-center"
               >
-                <a class="btn btn-square btn-secondary mx-1" href=""
+                <a
+                  class="btn btn-square btn-secondary mx-1 border border-info border-2"
+                  href=""
                   ><i class="bi bi-facebook"></i
                 ></a>
-                <a class="btn btn-square btn-secondary mx-1" href=""
+                <a
+                  class="btn btn-square btn-secondary mx-1 border border-info border-2"
+                  href=""
                   ><i class="bi bi-twitter"></i
                 ></a>
-                <a class="btn btn-square btn-secondary mx-1" href=""
+                <a
+                  class="btn btn-square btn-secondary mx-1 border border-info border-2"
+                  href=""
                   ><i class="bi bi-instagram"></i
                 ></a>
               </div>
             </div>
-            <div class="text-center p-4 mt-3">
-              <h5 class="fw-bold mb-0"><span class="text-info">Jace</span> Hendricks</h5>
+            <div class="text-center p-4 bg-secondary styledCard">
+              <h5 class="fw-bold mb-0 mt-2">
+                <span class="text-info">Jace</span> Hendricks
+              </h5>
               <small>CEO of Events and Adventure</small>
             </div>
           </div>
@@ -36,19 +44,27 @@
               <div
                 class="position-absolute start-50 top-100 translate-middle d-flex align-items-center"
               >
-                <a class="btn btn-square btn-secondary mx-1" href=""
+                <a
+                  class="btn btn-square btn-secondary mx-1 border border-info border-2"
+                  href=""
                   ><i class="bi bi-facebook"></i
                 ></a>
-                <a class="btn btn-square btn-secondary mx-1" href=""
+                <a
+                  class="btn btn-square btn-secondary mx-1 border border-info border-2"
+                  href=""
                   ><i class="bi bi-twitter"></i
                 ></a>
-                <a class="btn btn-square btn-secondary mx-1" href=""
+                <a
+                  class="btn btn-square btn-secondary mx-1 border border-info border-2"
+                  href=""
                   ><i class="bi bi-instagram"></i
                 ></a>
               </div>
             </div>
-            <div class="text-center p-4 mt-3">
-              <h5 class="fw-bold mb-0"><span class="text-info">Carie</span> Lanster</h5>
+            <div class="text-center p-4 bg-secondary styledCard">
+              <h5 class="fw-bold mb-0 mt-2">
+                <span class="text-info">Carie</span> Lanster
+              </h5>
               <small>CEO of Food and Beverage</small>
             </div>
           </div>
@@ -60,19 +76,27 @@
               <div
                 class="position-absolute start-50 top-100 translate-middle d-flex align-items-center"
               >
-                <a class="btn btn-square btn-secondary mx-1" href=""
+                <a
+                  class="btn btn-square btn-secondary mx-1 border border-info border-2"
+                  href=""
                   ><i class="bi bi-facebook"></i
                 ></a>
-                <a class="btn btn-square btn-secondary mx-1" href=""
+                <a
+                  class="btn btn-square btn-secondary mx-1 border border-info border-2"
+                  href=""
                   ><i class="bi bi-twitter"></i
                 ></a>
-                <a class="btn btn-square btn-secondary mx-1" href=""
+                <a
+                  class="btn btn-square btn-secondary mx-1 border border-info border-2"
+                  href=""
                   ><i class="bi bi-instagram"></i
                 ></a>
               </div>
             </div>
-            <div class="text-center p-4 mt-3">
-              <h5 class="fw-bold mb-0"><span class="text-info">Andy</span> Gostly</h5>
+            <div class="text-center p-4 bg-secondary styledCard">
+              <h5 class="fw-bold mb-0 mt-2">
+                <span class="text-info">Andy</span> Gostly
+              </h5>
               <small>CEO of Human Resources</small>
             </div>
           </div>
@@ -84,19 +108,25 @@
               <div
                 class="position-absolute start-50 top-100 translate-middle d-flex align-items-center"
               >
-                <a class="btn btn-square btn-secondary mx-1" href=""
+                <a
+                  class="btn btn-square btn-secondary mx-1 border border-info border-2"
+                  href=""
                   ><i class="bi bi-facebook"></i
                 ></a>
-                <a class="btn btn-square btn-secondary mx-1" href=""
+                <a
+                  class="btn btn-square btn-secondary mx-1 border border-info border-2"
+                  href=""
                   ><i class="bi bi-twitter"></i
                 ></a>
-                <a class="btn btn-square btn-secondary mx-1" href=""
+                <a
+                  class="btn btn-square btn-secondary mx-1 border border-info border-2"
+                  href=""
                   ><i class="bi bi-instagram"></i
                 ></a>
               </div>
             </div>
-            <div class="text-center p-4 mt-3">
-              <h5 class="fw-bold mb-0"><span class="text-info">Benji</span> Mui</h5>
+            <div class="text-center p-4 bg-secondary styledCard">
+              <h5 class="fw-bold mb-0 mt-2"><span class="text-info">Benji</span> Mui</h5>
               <small>Chief Engineer</small>
             </div>
           </div>
@@ -113,4 +143,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.styledCard {
+  color: white;
+}
+</style>

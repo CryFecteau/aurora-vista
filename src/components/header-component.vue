@@ -29,21 +29,58 @@
             <div
               class="navbar-nav ml-auto py-0 text-center text-lg-right d-lg-flex justify-content-end col-lg-9"
             >
-              <a href="index.html" class="nav-item nav-link active">Home</a>
-              <a href="room.html" class="nav-item nav-link">Rooms</a>
-              <a href="about.html" class="nav-item nav-link">Booking</a>
-              <a href="service.html" class="nav-item nav-link">About</a>
+              <a href="#" @click="scrollToElement()" class="nav-item nav-link active"
+                >Home</a
+              >
+              <a
+                href="#"
+                @click="scrollToElement('RoomsComponent')"
+                class="nav-item nav-link"
+                >Rooms</a
+              >
+              <a
+                href="#"
+                @click="scrollToElement('BookingComponent')"
+                class="nav-item nav-link"
+                >Booking</a
+              >
+              <a
+                href="#"
+                @click="scrollToElement('AboutComponent')"
+                class="nav-item nav-link"
+                >About</a
+              >
               <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
                   >more</a
                 >
                 <div class="dropdown-menu rounded-0 m-0">
-                  <a href="booking.html" class="dropdown-item">Services</a>
-                  <a href="team.html" class="dropdown-item">Reviews</a>
-                  <a href="testimonial.html" class="dropdown-item">Newsletter</a>
+                  <a
+                    href="#"
+                    @click="scrollToElement('ServicesComponent')"
+                    class="dropdown-item"
+                    >Services</a
+                  >
+                  <a
+                    href="#"
+                    @click="scrollToElement('ReviewsComponent')"
+                    class="dropdown-item"
+                    >Reviews</a
+                  >
+                  <a
+                    href="#"
+                    @click="scrollToElement('NewsletterComponent')"
+                    class="dropdown-item"
+                    >Newsletter</a
+                  >
                 </div>
               </div>
-              <a href="contact.html" class="nav-item nav-link">Contact</a>
+              <a
+                href="#"
+                @click="scrollToElement('FooterComponent')"
+                class="nav-item nav-link"
+                >Contact</a
+              >
             </div>
           </div>
         </nav>
@@ -56,6 +93,16 @@
 export default {
   name: "HeaderComponent",
   props: {},
+  methods: {
+    scrollToElement(el) {
+      const element = document.getElementById(el).getBoundingClientRect();
+      console.log(element);
+      window.scrollTo({
+        top: element.top + window.pageYOffset - 100,
+        behavior: "smooth",
+      });
+    },
+  },
 };
 </script>
 

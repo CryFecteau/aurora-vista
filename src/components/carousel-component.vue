@@ -44,15 +44,20 @@
               <h1 class="display-3 text-white mb-4 animated slideInDown">
                 Enter Paradise: Experience the Perfect Getaway.
               </h1>
-              <a href="" class="btn btn-info py-md-3 px-md-5 me-3 animated slideInLeft"
+              <a
+                href="#"
+                class="btn btn-info py-md-3 px-md-5 me-3 animated slideInLeft"
+                @click="scrollToElement('RoomsComponent')"
                 >Our Rooms</a
               >
-              <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight"
+              <a
+                href="#"
+                class="btn btn-light py-md-3 px-md-5 animated slideInRight"
+                @click="scrollToElement('BookingComponent')"
                 >Book A Room</a
               >
             </div>
           </div>
-          <!-- <img class="w-100" src="https://placehold.co/50" alt="Image" /> -->
         </div>
         <div
           class="carousel-item"
@@ -62,9 +67,7 @@
             background-repeat: no-repeat;
             background-position: center;
           "
-        >
-          <!-- <img class="w-100" src="https://placehold.co/50" alt="Image" /> -->
-        </div>
+        ></div>
         <div
           class="carousel-item"
           style="
@@ -73,9 +76,7 @@
             background-repeat: no-repeat;
             background-position: center;
           "
-        >
-          <!-- <img class="w-100" src="https://placehold.co/50" alt="Image" /> -->
-        </div>
+        ></div>
       </div>
       <button
         class="carousel-control-prev"
@@ -103,12 +104,22 @@
 export default {
   name: "CarouselComponent",
   props: {},
+  methods: {
+    scrollToElement(el) {
+      const element = document.getElementById(el).getBoundingClientRect();
+      console.log(element);
+      window.scrollTo({
+        top: element.top + window.pageYOffset - 100,
+        behavior: "smooth",
+      });
+    },
+  },
 };
 </script>
 
 <style scoped>
 #header-carousel .carousel-item {
   height: 100vh;
-  min-height: 300px;
+  min-height: 200px;
 }
 </style>

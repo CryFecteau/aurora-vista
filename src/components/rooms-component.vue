@@ -1,9 +1,9 @@
 <template>
-  <div class="container-xxl py-5">
+  <div id="RoomsComponent" class="container-xxl py-5">
     <div class="container">
       <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-        <h2 class="section-title text-center text-info">Indulge in Luxury,</h2>
-        <h1 class="mb-5">Experience Unmatched Comfort</h1>
+        <h1 class="section-title text-center text-info">Indulge in Luxury,</h1>
+        <h2 class="mb-5">Experience Unmatched Comfort</h2>
       </div>
       <div class="row g-4">
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -11,11 +11,11 @@
             <div class="position-relative">
               <img class="img-fluid" src="https://placehold.co/500" alt="" />
               <small
-                class="position-absolute start-0 top-100 translate-middle-y bg-info text-white rounded py-1 px-3 ms-4"
+                class="position-absolute start-0 top-100 translate-middle-y bg-info rounded py-1 px-3 ms-4"
                 >$99/Night</small
               >
             </div>
-            <div class="p-4 mt-2">
+            <div class="p-4 bg-white">
               <div class="d-flex justify-content-between mb-3">
                 <h5 class="mb-0">Classic Suite</h5>
                 <div class="ps-2">
@@ -44,10 +44,10 @@
                 you to experience luxury and comfort like never before."
               </p>
               <div class="d-flex justify-content-between">
-                <a class="btn btn-sm btn-outline-secondary rounded py-2 px-4" href=""
-                  >View Details</a
+                <span class="btn btn-sm btn-outline-secondary rounded py-2 px-4"
+                  >View Details</span
                 >
-                <a class="btn btn-sm btn-info rounded py-2 px-4" href="">Book Now</a>
+                <span class="btn btn-sm btn-info rounded py-2 px-4">Book Now</span>
               </div>
             </div>
           </div>
@@ -57,11 +57,11 @@
             <div class="position-relative">
               <img class="img-fluid" src="https://placehold.co/500" alt="" />
               <small
-                class="position-absolute start-0 top-100 translate-middle-y bg-info text-white rounded py-1 px-3 ms-4"
+                class="position-absolute start-0 top-100 translate-middle-y bg-info rounded py-1 px-3 ms-4"
                 >$175/Night</small
               >
             </div>
-            <div class="p-4 mt-2">
+            <div class="p-4 bg-white">
               <div class="d-flex justify-content-between mb-3">
                 <h5 class="mb-0">Executive Suite</h5>
                 <div class="ps-2">
@@ -92,10 +92,10 @@
                 provide an extraordinary experience.
               </p>
               <div class="d-flex justify-content-between">
-                <a class="btn btn-sm btn-outline-secondary rounded py-2 px-4" href=""
-                  >View Details</a
+                <span class="btn btn-sm btn-outline-secondary rounded py-2 px-4"
+                  >View Details</span
                 >
-                <a class="btn btn-sm btn-info rounded py-2 px-4" href="">Book Now</a>
+                <span class="btn btn-sm btn-info rounded py-2 px-4">Book Now</span>
               </div>
             </div>
           </div>
@@ -105,11 +105,11 @@
             <div class="position-relative">
               <img class="img-fluid" src="https://placehold.co/500" alt="" />
               <small
-                class="position-absolute start-0 top-100 translate-middle-y bg-info text-white rounded py-1 px-3 ms-4"
+                class="position-absolute start-0 top-100 translate-middle-y bg-info rounded py-1 px-3 ms-4"
                 >$299/Night</small
               >
             </div>
-            <div class="p-4 mt-2">
+            <div class="p-4 bg-white">
               <div class="d-flex justify-content-between mb-3">
                 <h5 class="mb-0">Premier Suite</h5>
                 <div class="ps-2">
@@ -142,10 +142,10 @@
                 refined luxury.
               </p>
               <div class="d-flex justify-content-between">
-                <a class="btn btn-sm btn-outline-secondary rounded py-2 px-4" href=""
-                  >View Details</a
+                <span class="btn btn-sm btn-outline-secondary rounded py-2 px-4"
+                  >View Details</span
                 >
-                <a class="btn btn-sm btn-info rounded py-2 px-4" href="">Book Now</a>
+                <span class="btn btn-sm btn-info rounded py-2 px-4">Book Now</span>
               </div>
             </div>
           </div>
