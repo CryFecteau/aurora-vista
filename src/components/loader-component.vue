@@ -7,7 +7,7 @@
       <div class="card-body text-white">
         <h5 class="card-title">Welcome to Aurora Vista</h5>
         <p class="card-text">
-          This repsosive web application is a mock hotel site created to showcase Vue.js
+          This responsive web application is a mock hotel site created to showcase Vue.js
           and Bootstrap 5. Feel free to explore and interact with the site, but keep in
           mind that it's for demonstration purposes only.
         </p>
