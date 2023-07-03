@@ -43,22 +43,22 @@
               <h6 class="section-title text-start text-info text-uppercase mb-4">
                 Company
               </h6>
-              <a class="btn btn-link text-white" href="#">About Us</a>
-              <a class="btn btn-link text-white" href="#">Contact Us</a>
-              <a class="btn btn-link text-white" href="#">Privacy Policy</a>
-              <a class="btn btn-link text-white" href="#">Terms & Condition</a>
-              <a class="btn btn-link text-white" href="#">Support</a>
+              <span class="btn text-white">About Us</span>
+              <span class="btn text-white">Contact Us</span>
+              <span class="btn text-white">Privacy Policy</span>
+              <span class="btn text-white">Terms & Condition</span>
+              <span class="btn text-white">Support</span>
             </div>
             <div class="col-md-6">
               <h6 class="section-title text-start text-info text-uppercase mb-4">
                 Services
               </h6>
-              <a class="btn btn-link text-white" href="#">Valet Parking</a>
-              <a class="btn btn-link text-white" href="#">Tours and Excursions</a>
-              <a class="btn btn-link text-white" href="#">Bar and Lounge</a>
-              <a class="btn btn-link text-white" href="#">Dinning and Room Service</a>
-              <a class="btn btn-link text-white" href="#">Loyalty Programs</a>
-              <a class="btn btn-link text-white" href="#">Pet-Friendly</a>
+              <span class="btn text-white">Valet Parking</span>
+              <span class="btn text-white">Tours and Excursions</span>
+              <span class="btn text-white">Bar and Lounge</span>
+              <span class="btn text-white">Dinning and Room Service</span>
+              <span class="btn text-white">Loyalty Programs</span>
+              <span class="btn text-white">Pet-Friendly</span>
             </div>
           </div>
         </div>
@@ -70,14 +70,14 @@
           <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
             &copy; <a class="border-bottom text-info" href="#">Aurora Vista</a>, All Right
             Reserved. Designed By
-            <a class="border-bottom text-info" href="">Crystal Fecteau</a>
+            <a class="border-bottom text-info" href="#">Crystal Fecteau</a>
           </div>
           <div class="col-md-6 text-center text-md-end">
             <div class="footer-menu">
-              <a class="text-white" href="#">Home </a>
-              <a class="text-white" href="#">Cookies </a>
-              <a class="text-white" href="#">Help </a>
-              <a class="text-white" href="#">FQAs </a>
+              <span class="text-white">Home </span>
+              <span class="text-white">Cookies </span>
+              <span class="text-white">Help </span>
+              <span class="text-white">FQAs </span>
             </div>
           </div>
         </div>

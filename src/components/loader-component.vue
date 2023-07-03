@@ -7,12 +7,12 @@
       <div class="card-body text-white">
         <h5 class="card-title">Welcome to Aurora Vista</h5>
         <p class="card-text">
-          Please note that this is a mock hotel site created to showcase Vue.js and
-          Bootstrap 5. Feel free to explore and interact with the site, but keep in mind
-          that it's for demonstration purposes only.
+          This repsosive web application is a mock hotel site created to showcase Vue.js
+          and Bootstrap 5. Feel free to explore and interact with the site, but keep in
+          mind that it's for demonstration purposes only.
         </p>
         <p class="card-text">Enjoy your virtual stay!</p>
-        <p class="card-text"><small class="text-info">- Aurora Vista Team </small></p>
+        <p class="card-text"><small class="text-info">- Crystal Fecteau </small></p>
         <button
           class="btn btn-outline-info float-end mb-1"
           type="button"

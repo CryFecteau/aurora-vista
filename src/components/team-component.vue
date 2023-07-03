@@ -15,21 +15,18 @@
               <div
                 class="position-absolute start-50 top-100 translate-middle d-flex align-items-center"
               >
-                <a
+                <span
                   class="btn btn-square btn-secondary mx-1 border border-info border-2"
-                  href=""
                   ><i class="bi bi-facebook"></i
-                ></a>
-                <a
+                ></span>
+                <span
                   class="btn btn-square btn-secondary mx-1 border border-info border-2"
-                  href=""
                   ><i class="bi bi-twitter"></i
-                ></a>
-                <a
+                ></span>
+                <span
                   class="btn btn-square btn-secondary mx-1 border border-info border-2"
-                  href=""
                   ><i class="bi bi-instagram"></i
-                ></a>
+                ></span>
               </div>
             </div>
             <div class="text-center p-4 bg-secondary styledCard">
@@ -50,21 +47,18 @@
               <div
                 class="position-absolute start-50 top-100 translate-middle d-flex align-items-center"
               >
-                <a
+                <span
                   class="btn btn-square btn-secondary mx-1 border border-info border-2"
-                  href=""
                   ><i class="bi bi-facebook"></i
-                ></a>
-                <a
+                ></span>
+                <span
                   class="btn btn-square btn-secondary mx-1 border border-info border-2"
-                  href=""
                   ><i class="bi bi-twitter"></i
-                ></a>
-                <a
+                ></span>
+                <span
                   class="btn btn-square btn-secondary mx-1 border border-info border-2"
-                  href=""
                   ><i class="bi bi-instagram"></i
-                ></a>
+                ></span>
               </div>
             </div>
             <div class="text-center p-4 bg-secondary styledCard">
@@ -85,21 +79,18 @@
               <div
                 class="position-absolute start-50 top-100 translate-middle d-flex align-items-center"
               >
-                <a
+                <span
                   class="btn btn-square btn-secondary mx-1 border border-info border-2"
-                  href=""
                   ><i class="bi bi-facebook"></i
-                ></a>
-                <a
+                ></span>
+                <span
                   class="btn btn-square btn-secondary mx-1 border border-info border-2"
-                  href=""
                   ><i class="bi bi-twitter"></i
-                ></a>
-                <a
+                ></span>
+                <span
                   class="btn btn-square btn-secondary mx-1 border border-info border-2"
-                  href=""
                   ><i class="bi bi-instagram"></i
-                ></a>
+                ></span>
               </div>
             </div>
             <div class="text-center p-4 bg-secondary styledCard">
@@ -120,21 +111,18 @@
               <div
                 class="position-absolute start-50 top-100 translate-middle d-flex align-items-center"
               >
-                <a
+                <span
                   class="btn btn-square btn-secondary mx-1 border border-info border-2"
-                  href=""
                   ><i class="bi bi-facebook"></i
-                ></a>
-                <a
+                ></span>
+                <span
                   class="btn btn-square btn-secondary mx-1 border border-info border-2"
-                  href=""
                   ><i class="bi bi-twitter"></i
-                ></a>
-                <a
+                ></span>
+                <span
                   class="btn btn-square btn-secondary mx-1 border border-info border-2"
-                  href=""
                   ><i class="bi bi-instagram"></i
-                ></a>
+                ></span>
               </div>
             </div>
             <div class="text-center p-4 bg-secondary styledCard">
