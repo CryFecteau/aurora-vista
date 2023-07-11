@@ -11,7 +11,7 @@
       </div>
       <div class="col-lg-9">
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-1 p-lg-0">
-          <a href="index.html" class="navbar-brand d-block d-lg-none">
+          <a href="index.html" class="navbar-brand d-block d-lg-none px-2">
             <h1 class="m-0 text-info">Aurora Vista</h1>
           </a>
           <button

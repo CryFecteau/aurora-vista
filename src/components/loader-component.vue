@@ -1,15 +1,16 @@
 <template>
   <div
     v-if="!hasEntered"
-    class="z-3 show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex flex-column align-items-center justify-content-center"
+    class="z-3 show position-fixed translate-middle vw-100 vh-100 top-50 start-50 d-flex flex-column align-items-center justify-content-center"
   >
     <div class="card w-50 card-styled bg-dark p-3">
       <div class="card-body text-white">
-        <h5 class="card-title">Welcome to Aurora Vista</h5>
+        <h5 class="card-title mb-0">Welcome to Aurora Vista</h5>
+        <p class="mb-2 fs-6"><small>Vue.js/Bootstrap 5</small></p>
         <p class="card-text">
-          This responsive web application is a mock hotel site created to showcase Vue.js
-          and Bootstrap 5. Feel free to explore and interact with the site, but keep in
-          mind that it's for demonstration purposes only.
+          This is a mock hotel site created to showcase Vue.js and Bootstrap 5. Feel free
+          to explore and interact with the site, but keep in mind that it's for
+          demonstration purposes only.
         </p>
         <p class="card-text">Enjoy your virtual stay!</p>
         <p class="card-text"><small class="text-info">- Crystal Fecteau </small></p>
@@ -68,5 +69,11 @@ export default {
 <style scoped>
 .card-styled {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 800px) {
+  .card-styled {
+    width: 75% !important;
+  }
 }
 </style>
