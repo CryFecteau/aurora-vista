@@ -5,7 +5,7 @@
   >
     <div class="card w-50 card-styled bg-dark p-3">
       <div class="card-body text-white">
-        <h5 class="card-title mb-0">Welcome to Aurora Vista</h5>
+        <h4 class="card-title mb-0">Welcome to Aurora Vista</h4>
         <p class="mb-2 fs-6"><small>Vue.js/Bootstrap 5</small></p>
         <p class="card-text">
           This is a mock hotel site created to showcase Vue.js and Bootstrap 5. Feel free
